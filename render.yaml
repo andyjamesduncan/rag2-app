@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: llama-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: .
+
